@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh; /*esto es para que el footer vaya abajo*/
+    display: flex;
+    flex-direction: column;
+}
+
+/* AQUI EMPIEZA A CAMBIAR EL ESTILO DEL HEADER Y EL NAV*/
+
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header-logo{
+    margin-bottom: 15px;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+	top: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #7ABA96;;
+}
+
+
+/* AQUI EMPIEZA A CAMBIAR EL ESTILO DEL MAIN */
+
+main{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+}
+h3{
+    color: #8A8070;
+    padding: 2%;
+}
+input{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+}
+.text-input{
+    margin-top: 1%;
+}
+.button-input{
+    margin-top: 1%;
+    width: 20%;
+}
+
+
+/*  PANEL IZQUIERDO ( SOBRE MI Y SUSCRIBETE ) */
+
+
+.left-pannel{
+    width: 20%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.sobre-mi{
+    padding: 10px;
+}
+
+.sobre-mi-title{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sobre-mi-desc{
+    margin-top: 15px;
+    color: #8A8070;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 15px;
+}
+
+.suscribete{
+    background-color: rgb(221, 221, 221);
+}
+
+.suscribete-title{
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.suscribete-desc{
+    padding: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+    color: #8A8070;
+}
+.suscribete-button{
+    background-color: #7ABA96;
+    font-weight: bold;
+    padding: 5px;
+}
+.suscribete-button:hover{
+    background-color: #8A8070;
+}
+.suscribete-button a:hover{
+    color: black;
+}
+
+
+
+
+/* PANEL DERECHO (EL PREVIEW DE LAS RECETAS Y TAL) */
+
+.recipe-preview-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe-preview{
+    text-align: center;
+    width: 40%;
+    margin: 30px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #7ABA96;
+    font-weight: bold;
+}
+.recipe-preview-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.recipe-preview-img{
+    width: 100%;
+}
+.recipe-preview hr{
+    border-top: 1px solid #7ABA96 ;
+}
+.recipe-preview-desc{
+    margin-top: 15px;
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+/* AQUI TOCAMOS EL STYLE DEL FOOTER */
+
+footer{
+    margin-top: auto;
+    background-color: rgb(25, 25, 25); 
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+footer ul li{
+    padding: 30px;
+    text-transform: uppercase;
+}
+footer ul li a{
+    color:#8A8070;
+}
+footer ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+p{
+    margin-top: 1%;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+
+
+
