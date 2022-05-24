@@ -1,1 +1,20 @@
-
+.recipe-preview{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.recipe-preview-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.recipe-preview-info{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
